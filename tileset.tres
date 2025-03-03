@@ -1,0 +1,35 @@
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://blf3qsvlfyy56"]
+
+[ext_resource type="Texture2D" uid="uid://brfda7ri2rj1g" path="res://assets/Tilesets/handdrawn/block.png" id="1_73tak"]
+[ext_resource type="Texture2D" uid="uid://d0ndkw2he5t5e" path="res://assets/Tilesets/handdrawn/wall.png" id="2_6jdiw"]
+[ext_resource type="Texture2D" uid="uid://cmd0222kpumxb" path="res://assets/Tilesets/handdrawn/character.png" id="3_2nqbe"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r1i1t"]
+texture = ExtResource("1_73tak")
+texture_region_size = Vector2i(128, 64)
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -32)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p25co"]
+texture = ExtResource("2_6jdiw")
+texture_region_size = Vector2i(128, 64)
+0:1/size_in_atlas = Vector2i(1, 3)
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(0, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k0vff"]
+texture = ExtResource("3_2nqbe")
+margins = Vector2i(0, 32)
+texture_region_size = Vector2i(128, 64)
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 32)
+
+[resource]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(128, 64)
+sources/0 = SubResource("TileSetAtlasSource_r1i1t")
+sources/1 = SubResource("TileSetAtlasSource_p25co")
+sources/2 = SubResource("TileSetAtlasSource_k0vff")
