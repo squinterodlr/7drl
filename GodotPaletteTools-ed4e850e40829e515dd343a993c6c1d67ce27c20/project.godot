@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="PaletteTools"
+config/description="An addon for managing color palettes in Godot"
+config/version="1.6.1"
+config/tags=PackedStringArray("plugin", "tool")
+config/features=PackedStringArray("4.2", "Mobile")
+boot_splash/use_filter=false
+config/icon="res://addons/PaletteTools/icon.png"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/PaletteTools/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="mobile"

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://b42lp1dnvoi7r"]
+
+[ext_resource type="PackedScene" uid="uid://ce1vt04v13kei" path="res://actors/actor.tscn" id="1_uok6r"]
+[ext_resource type="Script" uid="uid://g12u4r1q8jx4" path="res://actors/player.gd" id="2_va83w"]
+
+[node name="Player" instance=ExtResource("1_uok6r")]
+script = ExtResource("2_va83w")
+grid_position = Vector2i(0, 0)

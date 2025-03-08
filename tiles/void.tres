@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TileResource" load_steps=3 format=3 uid="uid://ece5gxfyqdck"]
+
+[ext_resource type="Script" uid="uid://33mv7pq6o6rf" path="res://tiles/tile_resource.gd" id="1_yl4i6"]
+[ext_resource type="TileSet" uid="uid://b46jehrcjutsp" path="res://tiles/tileset.tres" id="2_e06df"]
+
+[resource]
+script = ExtResource("1_yl4i6")
+name = "void"
+passable = true
+tileset = ExtResource("2_e06df")
+tileset_atlas_id = 1
+tileatlas_coords = Vector2i(-1, -1)
+terrain_set = -1

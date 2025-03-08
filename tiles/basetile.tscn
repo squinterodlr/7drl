@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm0gik3dc4iec"]
+
+[ext_resource type="Script" uid="uid://dtlft4jdv7ovy" path="res://tiles/basetile.gd" id="1_b3rup"]
+
+[node name="Tile" type="Node2D"]
+z_index = -1
+script = ExtResource("1_b3rup")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
